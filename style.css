@@ -1,0 +1,124 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslateblue;
+    margin: 0; 
+}
+
+nav {
+    background-color: aliceblue;
+    height: 70px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav img {
+    height: 80px;
+    width: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
+
+nav li {
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px solid darkblue;
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover {
+    background-color: darkgray;
+}
+
+.main {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    padding: 20px;
+    margin-right:20px;
+    margin-left: 20px;
+    
+}
+
+section {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.body.image {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+    padding:20px;
+    background-color: lightgrey;
+}
+
+.body.image img {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: 20px; 
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
+}
+button{
+    background-color:chocolate;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+}
+button:hover{
+    background-color: crimson;
+}
+.footer {
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding:0;
+    margin:0;
+    
+}
+.footer li {
+    font-size: 24px; 
+    color:black;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px solid darkblue;
+    background-color: lightgray;
+    transition: background-color 0.3s;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+.footer li:hover {
+    background-color: darkgray;
+}
